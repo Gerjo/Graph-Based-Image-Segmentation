@@ -1,3 +1,10 @@
+Quickly bundled three open-source projects together for a quick thesis experiment. Maybe someone else finds it useful, too. The segmentation algorithm's original 'readme' is included below.
+Segmentation algorithm source: http://cs.brown.edu/~pff/segment/
+JPEG decoding: https://code.google.com/archive/p/jpeg-compressor/
+PNG encoding: http://lodev.org/lodepng/
+
+
+# Graph Based Image Segmentation
 
 Implementation of the segmentation algorithm described in:
 
