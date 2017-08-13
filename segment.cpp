@@ -34,11 +34,10 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 int main(int argc, char **argv) {
 	
   if (argc != 6) {
-    fprintf(stderr, "usage: %s sigma k min input(ppm) output(ppm)\n", argv[0]);
+    fprintf(stderr, "usage: %s sigma k min input(jpg) output(png)\n", argv[0]);
     fprintf(stderr, "  Typical parameters are sigma = 0.5, k = 500, min = 20.");
     fprintf(stderr, "  Larger values for k result in larger components in the result.");
 
-	
     return 1;
   }
   
