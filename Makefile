@@ -10,8 +10,8 @@ LINK   = -lm
 
 all: segment
 
-segment: segment.cpp segment-image.h segment-graph.h disjoint-set.h
-	$(CPP) $(CFLAGS) -o segment segment.cpp $(LINK)
+segment: jpeg-compressor/jpgd.h jpeg-compressor/jpge.h lodepng.h segment.cpp segment-image.h segment-graph.h disjoint-set.h
+	$(CPP) $(CFLAGS) -o segment segment.cpp jpeg-compressor/jpgd.cpp jpeg-compressor/jpge.cpp lodepng.cpp $(LINK)
 
 clean:
 	/bin/rm -f segment *.o
